@@ -1,0 +1,20 @@
+/* Minimal global overrides; most styling is Tailwind */
+/* Legacy classes kept only for gradual migration - remove when pages refactored */
+
+.link-button {
+  background: none;
+  padding: 0;
+}
+
+.url-cell {
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.error-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
